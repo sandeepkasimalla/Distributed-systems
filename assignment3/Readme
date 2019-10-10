@@ -1,0 +1,4 @@
+compile :  mpicc -o mpi_barrier mpi_barrier.c
+execute :  mpirun -np [ no of processes ] ./mpi_barrier 
+
+Testing : For Testing it is used in even_odd_sort program which is available in this folder.
