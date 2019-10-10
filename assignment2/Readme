@@ -1,0 +1,2 @@
+compile :  gcc -fopenmp matrix_mul.c
+execute :  ./a.out [ no of rows of 1st matrix ] [ no of columns of 1st matrix ] [ no of columns of 2nd matrix ]
