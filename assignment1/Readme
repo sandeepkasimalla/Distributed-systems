@@ -1,0 +1,2 @@
+compile :  mpicc -o even_odd_sort even_odd_sort.c
+execute :  mpirun -np [ no of processes ] ./even_odd_sort [ no of elements ] 
