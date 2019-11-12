@@ -1,0 +1,3 @@
+
+compile :  g++ -pthread multi_threading.cpp
+execute :  ./a.out [no of a type files] [no of b type files] [no of random numbers] [no of parent threads] [no of child threads]
